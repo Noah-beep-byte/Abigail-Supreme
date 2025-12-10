@@ -1,10 +1,10 @@
 services:
   - type: web
-    name: express-hello-world
+    name: abigail-supreme
     env: node
     plan: free
     buildCommand: "npm install"
-    startCommand: "node index.js"
+    startCommand: "npm start"
     envVars:
       - key: PORT
         value: 10000
